@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "next",
+    "prettier",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "no-irregular-whitespace": "off"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "globals": {
+    "React": true,
+    "JSX": true
+  }
+}
